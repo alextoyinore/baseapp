@@ -1,6 +1,6 @@
 # baseapp
 
-A new Flutter project.
+A base app for my Flutter projects.
 
 ## Getting Started
 
