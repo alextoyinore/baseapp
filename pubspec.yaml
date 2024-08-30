@@ -39,13 +39,22 @@ dependencies:
   hydrated_bloc: ^9.1.5
   path_provider: ^2.1.4
   flutter_bloc: ^8.1.6
-  dartz: ^0.10.1
+  dartz: ^0.10.1                      # For Using Either
   firebase_core: ^2.24.2
   firebase_auth: ^4.16.0
   cloud_firestore: ^4.14.0
+  flutter_svg: ^2.0.10+1
+
   # just_audio: ^0.9.37
   # just_audio_windows: ^0.2.1
-  flutter_svg: ^2.0.10+1
+
+  equatable: ^2.0.5                   # For comparing dart objects
+  intl: ^0.19.0                       # For handling language and time
+  floor: ^1.5.0                       # Database
+  retrofit: ^3.0.1                    # Make request to api
+  flutter_hooks: ^0.18.3              # Hooks
+  cached_network_image: ^3.4.1        # Cached Image
+
 
 
 dev_dependencies:
