@@ -1,8 +1,7 @@
 import 'package:baseapp/common/bloc/theme/theme_cubit.dart';
-import 'package:baseapp/core/config/theme/theme.dart';
+import 'package:baseapp/config/theme/theme.dart';
 import 'package:baseapp/service_locator.dart';
-import 'package:baseapp/splash/presentation/pages/splash.dart';
-import 'package:firebase_core/firebase_core.dart';
+import 'package:baseapp/features/splash/presentation/pages/splash.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
