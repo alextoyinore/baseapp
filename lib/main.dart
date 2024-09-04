@@ -1,4 +1,5 @@
 import 'package:baseapp/common/bloc/theme/theme_cubit.dart';
+import 'package:baseapp/config/strings/strings.dart';
 import 'package:baseapp/config/theme/theme.dart';
 import 'package:baseapp/service_locator.dart';
 import 'package:baseapp/features/splash/presentation/pages/splash.dart';
@@ -32,7 +33,7 @@ class App extends StatelessWidget {
       providers: [BlocProvider(create: (_) => ThemeCubit())],
       child: BlocBuilder<ThemeCubit, ThemeMode>(
         builder: (context, mode) => MaterialApp(
-          title: 'App Name',
+          title: AppStrings.appName,
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
